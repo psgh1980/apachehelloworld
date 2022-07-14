@@ -3,6 +3,7 @@ ENV PORT=443
 LABEL maintainer="Chris <c@crccheck.com>"
 
 ADD index.html /www/index.html
+ADD ComputerNerd.gif /www/ComputerNerd.gif
 
 # EXPOSE $PORT
 
